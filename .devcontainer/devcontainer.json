@@ -1,12 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.187.0/containers/alpine
 {
-	"name": "SjASMPlus",
-	"build": {
-		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: focal, bionic
-		"args": { "VARIANT": "focal" }
-	},
+	"name": "Z80-Assembly",
+	"image": "rprouse/asm-dev",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
